@@ -1,5 +1,5 @@
 import { Arg, Mutation, Query, Resolver } from "type-graphql";
-import { VideoInput } from "../dtos/VideoDTO";
+import { VideoInput } from "../dtos/VideoInput";
 import { Video } from "../model/Video";
 import VideoSchema from "../schema/VideoSchema";
 

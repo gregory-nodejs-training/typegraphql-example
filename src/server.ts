@@ -2,7 +2,7 @@ import "reflect-metadata";
 import "./database/connection";
 import { ApolloServer } from "apollo-server";
 import { buildSchema } from "type-graphql";
-import { VideoResolver } from "./video/resolver/VideoResolver";
+import { VideoResolver } from "./useCases/video/resolver/VideoResolver";
 
 async function bootstrap() {
     const schema = await buildSchema({

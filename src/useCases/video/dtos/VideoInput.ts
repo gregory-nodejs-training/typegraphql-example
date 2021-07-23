@@ -3,13 +3,13 @@ import { Field, InputType } from "type-graphql";
 @InputType()
 class VideoInput {
     @Field()
-    description?: String;
+    description!: string;
     
     @Field()
-    title?: String;
+    title!: string;
     
     @Field()
-    category?: String;
+    category!: string;
 }
 
 export { VideoInput };
